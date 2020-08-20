@@ -2,12 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>CakeVille</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     
     <header id="header">
       <img id="header-img" src="img/cakelogo.png" alt="cakelogo" >
@@ -25,13 +24,13 @@
         </div>
         <div class="discription">
           <img src="img/icon1.png"/>
-          <h2>flavours</h2>
+          <h2>Flavours</h2>
           <p>
-            <li>anilla cakes</li>
-            <li>Lemon vanilla cakes</li>
-            <li>Orange vanilla cakes</li>
+            <li>Vanilla Cakes</li>
+            <li>Lemon Vanilla Cakes</li>
+            <li>Orange Vanilla Cakes</li>
             <li>Chocolate Cakes</li>
-            <li>Orange chocolate cakes</li>
+            <li>Orange Chocolate Cakes</li>
           </p>
        </div>
       </div>
@@ -41,12 +40,12 @@
         </div>
         <div class="discription">
           <img src="img/icon2.png"/>
-          <h2>icing</h2>
+          <h2>Icing</h2>
           <p>
-            <li>Buttercream icing</li>
-            <li>Lemon vanilla buttercream icing</li>
-            <li>Orange vanilla buttercream icing</li>
-            <li>Chocolate fudge buttercream icing</li>
+            <li>Buttercream Icing</li>
+            <li>Lemon Vanilla Buttercream Icing</li>
+            <li>Orange Vanilla Buttercream Icing</li>
+            <li>Chocolate Fudge Buttercream Icing</li>
          </p>
         </div>
       </div>
@@ -58,32 +57,36 @@
           <img src="img/icon3.png"/>
           <h2>Filling</h2>
           <p>
-            <li>Caramel filling</li>
-            <li> Hazelnut filling</li>
-            <li>Strawberry sauce filling</li>
-            <li>Peppermint filling</li>
-            <li>Black-forest filling</li>
-            <li>Oreo & cream filling</li>
+            <li>Caramel Filling</li>
+            <li>Hazelnut Filling</li>
+            <li>Strawberry Sauce Filling</li>
+            <li>Peppermint Filling</li>
+            <li>Black-forest Filling</li>
+            <li>Oreo & Cream Filling</li>
           </p>
       </div>
 
     </section>
 
     <section id="how-it-works">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6w5jbeCDzz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <video id="video">
+        <source src="" type="video/mp4">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6w5jbeCDzz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </video>
     </section>
 
     <section id="pricing">
       
     </section>
 
-    <form id="form">
-      <input type="email" id="email" placeholder="Enter your email"/>
-      <input id="submit" type="button" value="GET STARTED!" formaction=" https://www.freecodecamp.com/email-submit"/>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input type="email" id="email" name="email" placeholder="Enter your email"/>
+      <input id="submit" type="submit" name="submit" value="GET STARTED!" formaction="https://www.freecodecamp.com/email-submit"/>
     </form>
 
 
        <p> Hello world, we are software developers! </p>
     <script  src="js/index.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
